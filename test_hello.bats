@@ -9,5 +9,5 @@
 @test "prints 'Hello John!'" {
   run ./hello John
   [ $status -eq 0 ]
-  [ $output = "Hello John!" ]
+  [ $output = "Hello John!!!" ]
 }
